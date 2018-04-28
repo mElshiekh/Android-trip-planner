@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcolor"
+    tools:context="com.example.delllaptop.projone.UpdateNoteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add Your Notes"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="You Can update your Notes"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd1"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd1"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd2"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd2"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd3"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd3"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd4"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd4"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd5"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd5"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd6"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd6"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd6"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd7"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd7"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd7"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd8"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd8"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd8"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd9"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd9"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd9"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ItemUpd10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/ItemEditTextUpd10"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddBtnUpd10"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelBtnUpd10"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/UpdNote"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/addnote" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

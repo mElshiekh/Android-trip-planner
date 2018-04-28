@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcolor"
+    tools:context="com.example.delllaptop.projone.AddNoteActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Add Your Notes"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="You Can Add Up to Ten Note"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/addnoteItem1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/addNoteText1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:text="empty"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:id="@+id/ItemAddNoteBtn1"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+" />
+
+                    <Button
+                        android:id="@+id/ItemDelNoteBtn1"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem2"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:id="@+id/addNoteText2"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn2"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem3"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText3"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn3"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem4"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText4"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn4"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn4"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem5"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText5"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn5"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn5"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem6"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText6"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn6"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn6"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem7"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText7"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn7"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn7"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem8"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText8"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn8"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn8"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem9"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText9"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn9"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn9"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/addnoteItem10"
+                    android:visibility="gone">
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="empty"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/addNoteText10"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/ItemAddNoteBtn10"/>
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/ItemDelNoteBtn10"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/AddNotebut"
+                    android:layout_width="158dp"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/addnote" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

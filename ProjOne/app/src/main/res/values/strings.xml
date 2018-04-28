@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ProjOne</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_id">157276728268909</string>
+    <string name="fb_login_protocol_scheme">fb157276728268909</string>
+
+    <string name="static_map_key">AIzaSyCw_w2LB0TTREWDbUotVkgzHNjDGHTSqHk</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="directions_key">AIzaSyD-myWoslrUR5lcEZ2p_75-Jxs_0aWBrOg</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Trip_prompt">Choose Status Of Trip</string>
+    <string-array name="Trip_arrays">
+        <item>No Repeat</item>
+        <item>Repeat Daily</item>
+        <item>Repeat weekly</item>
+        <item>Repeat Monthly</item>
+    </string-array>
+
+    <string name="Trip_prompt2">Choose type of trip</string>
+    <string-array name="Trip_arrays2">
+        <item>One Way Trip</item>
+        <item>Round Trip</item>
+    </string-array>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+</resources>

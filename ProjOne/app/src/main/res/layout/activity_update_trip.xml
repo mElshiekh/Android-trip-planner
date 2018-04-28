@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcolor"
+    tools:context="com.example.delllaptop.projone.UpdateTripActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:text="Trip Name" />
+
+                <EditText
+                    android:id="@+id/Name_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:text="Start Point" />
+
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment_update"
+                    android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:text="End Point" />
+
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment2_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cal"
+                    android:id="@+id/btn_date_update"
+                    />
+
+                <Button
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/time"
+                    android:id="@+id/btn_time_update"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="75dp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    android:id="@+id/in_date_update"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    android:id="@+id/in_time_update"
+                    />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner1_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Trip_arrays"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:prompt="@string/Trip_prompt" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/myScrollView_update">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Next_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/roundedbutton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="NEXT"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
